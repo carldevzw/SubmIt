@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="deep_aqua">#013b45</color>
+    <color name="ocean">#05575b</color>
+    <color name="wave">#66a5ad</color>
+    <color name="seaform">#c4dfe6</color>
+
+
 </resources>

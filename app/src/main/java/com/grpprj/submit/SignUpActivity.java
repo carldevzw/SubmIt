@@ -28,22 +28,21 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SignUpActivity extends AppCompatActivity {
+
     private static final String TAG = "SignUpActivity";
     FirebaseFirestore db;
     private FirebaseAuth mAuth;
     TextInputLayout txtRegNumber, txtPassword, txtConPassword, txtUsername;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-
         txtPassword = (TextInputLayout) findViewById(R.id.txtPassword);
         txtConPassword = (TextInputLayout) findViewById(R.id.txtConPassword);
         txtUsername = (TextInputLayout) findViewById(R.id.txtUsername);
         txtRegNumber = (TextInputLayout) findViewById(R.id.txtRegNum);
-
-        TextView tvSignUp= (TextView) findViewById(R.id.tvSignUp);
 
         Button btnSubmit= (Button) findViewById(R.id.btnSubmit);
 
@@ -64,6 +63,12 @@ public class SignUpActivity extends AppCompatActivity {
                             newUserSign(username, regNum, password);
                             Toast.makeText(getApplicationContext(), "Signup Successful", Toast.LENGTH_LONG).show();
                             startActivity(new Intent(SignUpActivity.this, LauncherActivity.class));
+
+                            txtUsername.getEditText().setText(null);
+                            txtRegNumber.getEditText().setText(null);
+                            txtConPassword.getEditText().setText(null);
+                            txtPassword.getEditText().setText(null);
+
                         }else{
                             Toast.makeText(getApplicationContext(), "Signup Failed. Try again.", Toast.LENGTH_LONG).show();
                         }
@@ -84,11 +89,11 @@ public class SignUpActivity extends AppCompatActivity {
         String userID= firebaseUser.getUid();
 
         Map<String, Object> user = new HashMap<>();
-        user.put("First Name", uName);
-        user.put("Surname", regNum);
-        user.put("Username", password);
+        user.put("Username", uName);
+        user.put("Reg Number", regNum);
+        user.put("Password", password);
 
-        db.collection("users").document(userID)
+        db.collection("Students").document(userID)
                 .set(user)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override

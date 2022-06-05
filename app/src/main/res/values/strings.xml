@@ -20,6 +20,9 @@
     <string name="topic">Topic</string>
     <string name="project_details">Details.</string>
     <string name="create">Create</string>
+    <string name="your_projects">Your projects.</string>
+    <string name="student_number">Level 2.2</string>
+    <string name="chapters">Chapters</string>
 
     <string-array name="lecturer_array">
         <item>Mr C. Zano</item>
@@ -30,5 +33,12 @@
         <item>Mr Chikwiriro</item>
         <item>Mr Muzurura</item>
         <item>Mr Muyambo</item>
+    </string-array>
+
+    <string-array name="level_array">
+        <item>Undergrad - 2.2</item>
+        <item>Undergrad - 4</item>
+        <item>Postgrad</item>
+        <item>PhD</item>
     </string-array>
 </resources>

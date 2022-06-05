@@ -2,24 +2,35 @@ package models;
 
 public class ChaptersModel {
 
-    private String chaptName, chaptNum;
-    private boolean revStauts;
+    private String Name, Number, URL;
+    private boolean Reviewed;
 
-    public ChaptersModel(String chaptName, String chaptNum, boolean revStauts) {
-        this.chaptName = chaptName;
-        this.chaptNum = chaptNum;
-        this.revStauts = revStauts;
+    public ChaptersModel(String chaptName, String chaptNum, String URL, boolean revStauts) {
+        this.Name = chaptName;
+        this.Number = chaptNum;
+        this.URL= URL;
+        this.Reviewed = revStauts;
     }
 
-    public String getChaptName() {
-        return chaptName;
+
+
+    public ChaptersModel() {
+
     }
 
-    public String getChaptNum() {
-        return chaptNum;
+    public String getURL() {
+        return URL;
     }
 
-    public boolean isRevStauts() {
-        return revStauts;
+    public String getName() {
+        return Name;
+    }
+
+    public String getNumber() {
+        return Number;
+    }
+
+    public boolean isReviewed() {
+        return Reviewed;
     }
 }

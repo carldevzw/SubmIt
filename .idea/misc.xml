@@ -4,19 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/drawable-v24/submit_frame.xml" value="0.233" />
+        <entry key="..\:/Users/dell/SubmIt/app/src/main/res/drawable/ic_round_notifications_none_24.xml" value="0.228" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/action_bar.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/action_bar_newprj.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/action_bar_staffchapters.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/action_bar_staffhome.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_launcher.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_new_prj.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_new_project.xml" value="1.0" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_newproject.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_project_chapters.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_sign_up.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_staff_home.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/activity_submit.xml" value="0.20253164556962025" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/chapters_layout.xml" value="0.4" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/fragment_meal_details.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/fragment_submit.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/fragment_view_chapters.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/projects_layout.xml" value="0.4" />
         <entry key="..\:/Users/dell/SubmIt/app/src/main/res/layout/supervisor_dropdown.xml" value="0.20512820512820512" />
       </map>
     </option>

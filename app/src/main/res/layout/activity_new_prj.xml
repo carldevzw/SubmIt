@@ -54,6 +54,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+           android:id="@+id/tilLevel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -64,11 +65,13 @@
             <AutoCompleteTextView
                 android:id="@+id/txtLevel"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:enabled="false"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+           android:id="@+id/tilSupervisor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -79,10 +82,12 @@
             <AutoCompleteTextView
                 android:id="@+id/txtSupervisor"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:enabled="false"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/btnCreate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"

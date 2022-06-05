@@ -52,7 +52,6 @@
                 android:hint="@string/chapter_name">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/tiet_price"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textColorHint="#546E7A"
@@ -61,7 +60,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/btnUploadImage"
+                android:id="@+id/btnSelectDoc"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -69,15 +68,6 @@
                 android:drawableTop="@drawable/ic_baseline_attach_file_24"
                 android:text="Select File" />
 
-            <ImageView
-                android:id="@+id/IVUploadPicture"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="32dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/submit_frame" />
             <Button
                 android:id="@+id/btnAdd"
                 android:layout_width="match_parent"

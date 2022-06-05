@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StaffHomeActivity">
+    tools:context=".ProjectChaptersActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,11 +17,11 @@
             android:elevation="0dp"
             app:elevation="0dp">
             <include android:id="@+id/tool_bar_orders"
-                layout="@layout/action_bar_staffhome"/>
+                layout="@layout/action_bar_staffchapters"/>
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvProjectsList"
+            android:id="@+id/rvChaptersList"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingBottom="10dp"
@@ -29,4 +29,5 @@
             android:layout_below="@+id/action_bar"
             android:layout_marginTop="32dp"/>
     </RelativeLayout>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

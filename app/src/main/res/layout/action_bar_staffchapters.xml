@@ -2,7 +2,7 @@
 <com.google.android.material.appbar.CollapsingToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
+    android:layout_height="120dp"
     app:layout_scrollFlags="scroll|enterAlways"
     android:background="@color/white">
 
@@ -13,12 +13,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="12dp"
-        android:layout_alignParentBottom="true"
-        android:text="Project Chapters"
+        android:text="@string/chapters"
         android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textSize="32sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
